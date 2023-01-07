@@ -1,0 +1,263 @@
+export const ignore = true;
+fetch('https://web.moneylover.me/api/user/info', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106192.0.0.0; _ga=GA1.2.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: null,
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/user/account', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: null,
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/other/config', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: null,
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/wallet/list', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: '{}',
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/wallet/share/list', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: '{}',
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/transaction/list', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: '{"walletId":"all","startDate":"2023-01-01T00:00:00+07:00","endDate":"2023-01-07T23:59:59+07:00"}',
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/transaction/config-search', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    cookie:
+      '_gid=GA1.2.1584143115.1673086202; _gat=1; _ga_SGTSQ06VHD=GS1.1.1673106177.5.1.1673106193.0.0.0; _ga=GA1.1.1182361506.1672605195',
+    Referer: 'https://web.moneylover.me/',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+  },
+  body: '{}',
+  method: 'POST',
+});
+
+fetch('https://web.moneylover.me/api/event/list/all', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+  },
+  referrer: 'https://web.moneylover.me/',
+  referrerPolicy: 'strict-origin-when-cross-origin',
+  body: '{"walletId":"all"}',
+  method: 'POST',
+  mode: 'cors',
+  credentials: 'include',
+});
+
+fetch('https://web.moneylover.me/api/category/list-all', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+  },
+  referrer: 'https://web.moneylover.me/',
+  referrerPolicy: 'strict-origin-when-cross-origin',
+  body: null,
+  method: 'POST',
+  mode: 'cors',
+  credentials: 'include',
+});
+
+fetch('https://web.moneylover.me/api/transaction/list', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+  },
+  referrer: 'https://web.moneylover.me/',
+  referrerPolicy: 'strict-origin-when-cross-origin',
+  body: '{"walletId":"all","startDate":"2022-12-01T00:00:00+07:00","endDate":"2022-12-31T23:59:59+07:00"}',
+  method: 'POST',
+  mode: 'cors',
+  credentials: 'include',
+});
+
+fetch('https://web.moneylover.me/api/transaction/list', {
+  headers: {
+    accept: 'application/json',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,vi;q=0.7',
+    authorization: 'AuthJWT check',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    dataformat: 'json',
+    pragma: 'no-cache',
+    'sec-ch-ua': '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+  },
+  referrer: 'https://web.moneylover.me/',
+  referrerPolicy: 'strict-origin-when-cross-origin',
+  body: '{"walletId":"all","startDate":"2023-01-01T00:00:00+07:00","endDate":"2023-01-07T23:59:59+07:00"}',
+  method: 'POST',
+  mode: 'cors',
+  credentials: 'include',
+});
